@@ -17,9 +17,9 @@ namespace WindowsFormsApp1
             InitializeComponent();
         }
 
-        private void btnClickThis_Click(object sender, EventArgs e)
+        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
         {
-            lblHelloWorld.Text = "Hello World!";
+
         }
     }
 }
